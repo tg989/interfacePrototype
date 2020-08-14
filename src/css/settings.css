@@ -1,0 +1,11 @@
+.slider .track{
+    -fx-background-color: linear-gradient(to right, yellow 40%, white 40%);
+}
+
+* {
+    -fx-background-color: #15C8D8;
+}
+
+.button {
+    -fx-background-color: #FAF7DC;
+}

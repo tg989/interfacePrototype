@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" stylesheets="@../css/help.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HelpController">
+   <children>
+      <ImageView fx:id="imageView1" fitHeight="31.0" fitWidth="33.0" layoutX="14.0" layoutY="555.0" onMouseClicked="#HomePressed" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/home.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="63.0" layoutY="99.0" text="Help" textFill="#225e75">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="96.0" layoutY="145.0" text="List of help options will" textFill="#225e75" />
+      <Label layoutX="96.0" layoutY="170.0" text="be listed here" textFill="#225e75" />
+      <Label layoutX="96.0" layoutY="194.0" text="*" textFill="#225e75" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="background" prefHeight="600.0" prefWidth="800.0" stylesheets="@../css/canvas_type.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CanvasTypeController">
+   <children>
+      <Label layoutX="212.0" layoutY="371.0" prefHeight="53.0" prefWidth="385.0" text="Choose a mode to start!" textFill="#225e75">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <HBox layoutX="190.0" layoutY="245.0" prefHeight="26.0" prefWidth="420.0" spacing="126.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#collaborativeCanvasPressed" text="Collaborative Canvas" textFill="#225e75" />
+            <Button mnemonicParsing="false" onAction="#individualCanvasPressed" prefHeight="27.0" prefWidth="158.0" text="Individual Canvas" textFill="#225e75" />
+         </children>
+      </HBox>
+      <HBox layoutX="187.0" layoutY="76.0" prefHeight="152.0" prefWidth="410.0" spacing="120.0">
+         <children>
+            <ImageView fx:id="image1" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/collaborative_canvas.png" />
+               </image></ImageView>
+            <ImageView fx:id="image2" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/individual_canvas.png" />
+               </image></ImageView>
+         </children>
+      </HBox>
+      <HBox layoutX="7.0" layoutY="548.0" prefHeight="41.0" prefWidth="786.0" spacing="700.0">
+         <children>
+            <ImageView fx:id="image3" fitHeight="44.0" fitWidth="41.0" onMouseClicked="#homeButtonPressed" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/home.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="image4" fitHeight="44.0" fitWidth="41.0" onMouseClicked="#helpButtonPressed" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/help.png" />
+               </image>
+            </ImageView>
+         </children></HBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="600.0" stylesheets="@../css/theme.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SaveCanvasController">
+   <children>
+      <Label layoutX="229.0" layoutY="62.0" prefHeight="50.0" prefWidth="153.0" text="Save Canvas" textFill="#225e75">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <HBox layoutX="-1.0" layoutY="149.0" prefHeight="50.0" prefWidth="480.0" spacing="180.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" text="Yes" textFill="#225e75">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" text="No" textFill="#225e75">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children></HBox>
+   </children>
+</AnchorPane>

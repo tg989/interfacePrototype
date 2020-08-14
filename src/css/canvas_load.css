@@ -1,0 +1,35 @@
+* {
+    -fx-background-color: #15C8D8;
+}
+
+.pane1 {
+    -fx-background-color: #FAF7DC;
+}
+
+.pane2 {
+    -fx-background-color: #FAF7DC;
+}
+
+.pane3 {
+    -fx-background-color: #FAF7DC;
+}
+.pane4 {
+    -fx-background-color: #FAF7DC;
+}
+.pane5 {
+    -fx-background-color: #FAF7DC;
+}
+.pane6 {
+    -fx-background-color: #FAF7DC;
+}
+.pane7 {
+    -fx-background-color: #FAF7DC;
+}
+
+.pane8 {
+    -fx-background-color: #FAF7DC;
+}
+
+.mainPane{
+    -fx-border-color: #225E75;
+}

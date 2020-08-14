@@ -1,0 +1,11 @@
+.text-area .content{
+    -fx-background-color: rgb(255,255,224);
+}
+
+* {
+    -fx-background-color: #15C8D8;
+}
+
+.button {
+    -fx-background-color: #FAF7DC;
+}

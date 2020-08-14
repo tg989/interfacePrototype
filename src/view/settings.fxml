@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" stylesheets="@../css/settings.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SettingsController">
+   <children>
+      <Label layoutX="58.0" layoutY="69.0" prefHeight="39.0" prefWidth="83.0" text="Settings" textFill="#225e75">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <VBox layoutX="100.0" layoutY="124.0" prefHeight="333.0" prefWidth="230.0">
+         <children>
+            <VBox prefHeight="60.0" prefWidth="430.0" spacing="5.0">
+               <children>
+                  <Label text="Touch Sensitivity" textFill="#225e75" />
+                  <Slider fx:id="touchSensitivitySlider" />
+               </children>
+            </VBox>
+            <VBox prefHeight="60.0" prefWidth="430.0" spacing="5.0">
+               <children>
+                  <Label text="Screen Sensitivity" textFill="#225e75" />
+                  <Slider fx:id="screenSensitivitySlider" />
+               </children>
+            </VBox>
+            <VBox prefHeight="60.0" prefWidth="430.0" spacing="5.0">
+               <children>
+                  <Label text="Icon Size" textFill="#225e75" />
+                  <Slider fx:id="iconSizeSlider" />
+               </children>
+            </VBox>
+            <VBox prefHeight="60.0" prefWidth="430.0" spacing="5.0">
+               <children>
+                  <Label text="Brightness" textFill="#225e75" />
+                  <Slider fx:id="brightnessSlider" />
+               </children>
+            </VBox>
+            <VBox prefHeight="60.0" prefWidth="430.0" spacing="5.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#saveSettingsPressed" text="Save Settings" textFill="#225e75" />
+               </children>
+            </VBox>
+         </children></VBox>
+      <ImageView fx:id="homeImage" fitHeight="39.0" fitWidth="41.0" layoutX="14.0" layoutY="549.0" onMouseClicked="#homeButtonPressed" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
